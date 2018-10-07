@@ -1,0 +1,51 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: #00a7f59f;
+    color: #fff;
+    width: 20%;
+    margin: auto;
+    padding: 20px 0;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 2vw;
+    border-radius: 10px;
+}
+.box{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+#city{
+    border-bottom: 1px solid #fff;
+}
+
+#icon{
+    border-radius: 10px;
+    margin:10px auto 10px auto;
+    width: 50%;
+    height: 50%;
+}
+#icon img{
+    width: 100%;
+}
+
+#description{
+    width: 80%;
+    border-radius: 10px;
+    line-height: 80px;
+    background-color: rgba(255, 233, 172, 0.616);
+    color: #f56e00;
+    font-weight: 600;
+}
+#maintemp{
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 10px;
+    line-height: 80px;
+    background-color: rgba(219, 255, 184, 0.616);
+    color: #f50000b7;
+    font-weight: 600;
+}
+#maintemp::after{
+    content: '\00b0 C';
+}
